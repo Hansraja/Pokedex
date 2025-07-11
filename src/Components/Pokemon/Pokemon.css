@@ -149,7 +149,7 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .pokemon-card {
-    max-width: 250px;
+    max-width: 300px; /* Increased from 250px for iPad mini/tablet */
     padding: 1.25rem;
   }
   
@@ -170,26 +170,26 @@
 
 @media (max-width: 480px) {
   .pokemon-card {
-    max-width: 220px;
-    padding: 1rem;
+    max-width: 320px; /* Increased from 220px for mobile - single column layout */
+    padding: 1.5rem; /* Increased padding for better spacing */
   }
   
   .pokemon-image-container {
-    width: 120px;
-    height: 120px;
+    width: 140px; /* Increased from 120px */
+    height: 140px; /* Increased from 120px */
   }
   
   .pokemon-image {
-    width: 100px;
-    height: 100px;
+    width: 120px; /* Increased from 100px */
+    height: 120px; /* Increased from 100px */
   }
   
   .pokemon-name {
-    font-size: 1rem;
+    font-size: 1.125rem; /* Increased from 1rem */
   }
   
   .type-badge {
-    font-size: 0.6875rem;
-    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem; /* Increased from 0.6875rem */
+    padding: 0.375rem 0.625rem; /* Increased padding */
   }
 }
