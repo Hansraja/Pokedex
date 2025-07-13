@@ -4,10 +4,12 @@ import './App.css';
 import Pokedex from './Components/Pokedex/Pokedex';
 import PokemonDetail from './Components/PokemonDetail/PokemonDetail';
 import Footer from './Components/Footer/Footer';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Routes>
           <Route path="/" element={<Pokedex />} />

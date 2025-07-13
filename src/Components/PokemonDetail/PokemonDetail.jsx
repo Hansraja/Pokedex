@@ -38,6 +38,13 @@ function PokemonDetail() {
   };
 
   useEffect(() => {
+    // Scroll to top when component mounts
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+
     const fetchPokemonDetail = async () => {
       try {
         const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`);

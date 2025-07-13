@@ -20,6 +20,23 @@
   text-shadow: 0 2px 4px rgba(45, 74, 34, 0.2);
 }
 
+.clickable-heading {
+  cursor: pointer;
+  transition: var(--transition-normal);
+  user-select: none;
+}
+
+.clickable-heading:hover {
+  color: var(--text-secondary);
+  text-shadow: 0 4px 8px rgba(45, 74, 34, 0.3);
+  transform: translateY(-2px);
+}
+
+.clickable-heading:active {
+  transform: translateY(0);
+  text-shadow: 0 2px 4px rgba(45, 74, 34, 0.2);
+}
+
 .controls {
   display: flex;
   justify-content: center;
